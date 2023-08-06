@@ -7,11 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        mono: ["Consolas", "Cascadia Code", "Menlo", "ui-monospace", "monospace"],
       },
+      colors: {
+        baseBG: "var(--baseBG)",
+        primaryText: "var(--primaryText)",
+        secondaryText: "var(--secondaryText)",
+        cardBG: "var(--cardBG)",
+        cardBorder: "var(--cardBorder)",
+        btnBG: "var(--btnBG)",
+        btnText: "var(--btnText)",
+      }
     },
   },
   plugins: [],

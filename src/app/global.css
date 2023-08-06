@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --baseBG: #b3d2d1;
+        --primaryText: #130c10;
+        --secondaryText: #777777;
+        --cardBG: #92c9ac;
+        --cardBorder: #e2d3c5;
+        --btnBG: #6c4893;
+        --btnText: #ffffff;
+    }
+}
