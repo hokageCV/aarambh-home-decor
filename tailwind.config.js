@@ -12,6 +12,8 @@ module.exports = {
       },
       colors: {
         baseBG: "var(--baseBG)",
+        navBG: "var(--navBG)",
+        navText: "var(--navText)",
         primaryText: "var(--primaryText)",
         secondaryText: "var(--secondaryText)",
         cardBG: "var(--cardBG)",
@@ -21,5 +23,6 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+
 }
