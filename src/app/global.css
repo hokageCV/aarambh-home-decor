@@ -15,14 +15,14 @@
         --btnText: #ffffff;
     } */
     :root {
-        --baseBG: #f6f0e4;
+        --baseBG: #f4e8d1;
         --navBG: #e74c3c;
-        --navText: #ffffff;
-        --primaryText: #333333;
-        --secondaryText: #777777;
-        --cardBG: #ffffff;
-        --cardBorder: #d1d1d1;
-        --btnBG: #ffa500;
+        --navText: #333333;
+        --primaryText: #222222;
+        --secondaryText: #6e6e6e;
+        --cardBG: #ffe6cc;
+        --cardBorder: #d1a185;
+        --btnBG: #ff9900;
         --btnText: #ffffff;
     }
 }
